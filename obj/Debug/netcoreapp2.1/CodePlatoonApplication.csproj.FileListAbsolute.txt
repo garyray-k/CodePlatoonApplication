@@ -1,0 +1,11 @@
+/Users/garykrause/Dropbox/repos/CodePlatoonApplication/obj/Debug/netcoreapp2.1/CodePlatoonApplication.csprojAssemblyReference.cache
+/Users/garykrause/Dropbox/repos/CodePlatoonApplication/obj/Debug/netcoreapp2.1/CodePlatoonApplication.csproj.CoreCompileInputs.cache
+/Users/garykrause/Dropbox/repos/CodePlatoonApplication/obj/Debug/netcoreapp2.1/CodePlatoonApplication.AssemblyInfoInputs.cache
+/Users/garykrause/Dropbox/repos/CodePlatoonApplication/obj/Debug/netcoreapp2.1/CodePlatoonApplication.AssemblyInfo.cs
+/Users/garykrause/Dropbox/repos/CodePlatoonApplication/bin/Debug/netcoreapp2.1/CodePlatoonApplication.deps.json
+/Users/garykrause/Dropbox/repos/CodePlatoonApplication/bin/Debug/netcoreapp2.1/CodePlatoonApplication.runtimeconfig.json
+/Users/garykrause/Dropbox/repos/CodePlatoonApplication/bin/Debug/netcoreapp2.1/CodePlatoonApplication.runtimeconfig.dev.json
+/Users/garykrause/Dropbox/repos/CodePlatoonApplication/bin/Debug/netcoreapp2.1/CodePlatoonApplication.dll
+/Users/garykrause/Dropbox/repos/CodePlatoonApplication/bin/Debug/netcoreapp2.1/CodePlatoonApplication.pdb
+/Users/garykrause/Dropbox/repos/CodePlatoonApplication/obj/Debug/netcoreapp2.1/CodePlatoonApplication.dll
+/Users/garykrause/Dropbox/repos/CodePlatoonApplication/obj/Debug/netcoreapp2.1/CodePlatoonApplication.pdb
