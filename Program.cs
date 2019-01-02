@@ -11,7 +11,8 @@ namespace CodePlatoonApplication
             //EasySolutionFour.Execute();
             //MediumSolutionOne.Execute();
             //MediumSolutionTwo.Execute();
-            MediumSolutionThree.Execute();
+            //MediumSolutionThree.Execute();
+            HardSolutionOne.Execute();
         }
     }
 }

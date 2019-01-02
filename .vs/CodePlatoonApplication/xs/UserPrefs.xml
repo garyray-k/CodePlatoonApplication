@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{B0A86BFD-E0E5-4262-9AE7-CA2DEE3678F2}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="14" Column="43" />
-      <File FileName="MediumSolutionThree.cs" Line="3" Column="1" />
+      <File FileName="Program.cs" Line="15" Column="26" />
+      <File FileName="HardSolutionOne.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.CodePlatoonApplication PreferredExecutionTarget="MonoDevelop.Default" />
