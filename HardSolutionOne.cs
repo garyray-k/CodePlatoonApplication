@@ -1,9 +1,4 @@
-﻿using System;
-using System.Linq;
-using System.Text.RegularExpressions;
-using NUnit.Framework;
-
-/*
+﻿/*
  * For this problem, write a function/method that takes in a string and returns it in Pig Latin. 
  * If you are unfamiliar with Pig Latin check out: https://en.wikipedia.org/wiki/Pig_Latin. For our purposes today, let's follow one rule:
  * If a word starts with a consonant move all the letters before the first vowel to the end and add 'ay'. 
@@ -20,6 +15,10 @@ using NUnit.Framework;
  * pigLatin("This is a test") // returns "isThay isway away esttay"
 */
 
+using System;
+using System.Linq;
+using System.Text.RegularExpressions;
+
 namespace CodePlatoonApplication {
     internal class HardSolutionOne {
         private static readonly char[] Vowels = { 'a', 'e', 'i', 'o', 'u' };
@@ -29,19 +28,20 @@ namespace CodePlatoonApplication {
             Console.WriteLine("Enter a phrase:");
             string input = Console.ReadLine();
             if (String.IsNullOrWhiteSpace(input)) throw new Exception("Must provide words to be converted.");
-            string answer = ConvertToPigLatin(input);
+            HardSolutionOne converter = new HardSolutionOne();
+            string answer = converter.ConvertToPigLatin(input);
             Console.WriteLine(answer);
         }
 
-        private static string ConvertToPigLatin(string input) {
+        public string ConvertToPigLatin(string input) {
             string[] wordsToBeConverted = input.Split(' ');
             string result = "";
             foreach (string word in wordsToBeConverted) {
                 if (!Regex.IsMatch(word, @"^[a-zA-Z]+$")) throw new Exception("Words only. No numbers or unique characters");
                 if (FirstLetterIsVowel(word)) { 
-                    result += ConvertVowelFirstWord(word); 
+                    result += ConvertVowelFirstWord(word) + " "; 
                 } else { 
-                    result += (ConvertConsonantFirstWord(word); 
+                    result += ConvertConsonantFirstWord(word) + " "; 
                 }
             }
             return result;
@@ -75,16 +75,6 @@ namespace CodePlatoonApplication {
             }
             throw new Exception("Vowel not found in word. Maybe it's not a real word? Use real words.");
         }
-    }
-
-    [TestFixture]
-    public class HardSolutionOne_ConvertsToPigLatin {
-        private readonly HardSolutionOne _hardSolutionOne;
-
-        public HardSolutionOne_ConvertsToPigLatin() {
-            _hardSolutionOne = new HardSolutionOne();
-        }
-
     }
 }
 

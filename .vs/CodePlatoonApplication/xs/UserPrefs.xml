@@ -1,9 +1,23 @@
 ﻿<Properties StartupConfiguration="{B0A86BFD-E0E5-4262-9AE7-CA2DEE3678F2}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="15" Column="26" />
-      <File FileName="HardSolutionOne.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="15" Column="1" />
+      <File FileName="EasySolution1.cs" Line="12" Column="38" />
+      <File FileName="EasySolution2.cs" Line="1" Column="1" />
+      <File FileName="EasySolution3.cs" Line="1" Column="1" />
+      <File FileName="EasySolution4.cs" Line="1" Column="1" />
+      <File FileName="MediumSolution1.cs" Line="1" Column="1" />
+      <File FileName="MediumSolution2.cs" Line="1" Column="1" />
+      <File FileName="MediumSolution3.cs" Line="1" Column="1" />
+      <File FileName="HardSolutionOne.cs" Line="34" Column="1" />
+      <File FileName="HardSolutionTwo.cs" Line="6" Column="1" />
+      <File FileName="Readme.md" Line="2" Column="87" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.CodePlatoonApplication PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
@@ -11,7 +25,9 @@
   </MonoDevelop.Ide.DebuggingService.PinnedWatches>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/garykrause/Dropbox/repos/CodePlatoonApplication/HardSolutionOne.cs" relfile="HardSolutionOne.cs" line="30" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
